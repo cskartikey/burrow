@@ -20,7 +20,7 @@ export default function Page() {
                             built by teenagers at{" "}
                             <span className="font-PhantomSans text-hackClubRed underline">
                                 <a href="https://www.hackclub.com/" target="_blank">
-                                    HackClub.
+                                    Hack Club.
                                 </a>
                             </span>{" "}
                             <span className="font-SpaceMono bg-burrowHover rounded-md p-0.5">
@@ -67,7 +67,7 @@ export default function Page() {
                                     className="mx-2"
                                     alt="Hack Club's logo"
                                 />
-                                By HackClub
+                                By Hack Club
                             </button>
                         </a>
                     </div>
