@@ -1,6 +1,7 @@
 import { faApple, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import Head from "next/head";
 import {
     faChevronDown,
     faUpRightFromSquare,
@@ -8,6 +9,14 @@ import {
 export default function Page() {
     return (
         <>
+            <Head>
+                <title>Burrow</title>
+                <meta
+                    name="description"
+                    content="Burrow is an open-source tool for bypassing firewalls, built by teenagers at HackClub."
+                />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            </Head>
             <div className="flex items-center justify-center min-h-screen">
                 <div className="text-center mb-48">
                     <h1 className="text-6xl md:text-7xl lg:text-8xl font-Poppins">
