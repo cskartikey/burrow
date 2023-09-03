@@ -12,7 +12,7 @@ export default function Page() {
                 <div className="text-center mb-48">
                     <h1 className="text-6xl md:text-7xl lg:text-8xl font-Poppins">
                         <span className="text-burrowPurple font-bold">Burrow</span> Through{" "}
-                        <span className="font-SpaceMono font-bold">Firewall</span>
+                        <span className="font-SpaceMono font-bold">Firewalls</span>
                     </h1>
                     <div className="text-lg md:text-2xl font-Poppins my-2 md:my-10 w-11/12 md:w-3/4 mx-auto">
                         <p>
@@ -65,7 +65,7 @@ export default function Page() {
                                     width={35}
                                     height={35}
                                     className="mx-2"
-                                    alt="HackClub's logo"
+                                    alt="Hack Club's logo"
                                 />
                                 By HackClub
                             </button>
