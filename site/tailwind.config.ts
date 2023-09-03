@@ -16,8 +16,8 @@ const config: Config = {
         'burrowHover': '#3D3D3D'
       },
       fontFamily: {
-        SpaceMono: ['Space Mono', 'monospace'],
-        Poppins: ['Poppins', 'sans-serif'],
+        SpaceMono: ['var(--font-space-mono)'],
+        Poppins: ['var(--font-poppins)'],
       }
     },
   },
