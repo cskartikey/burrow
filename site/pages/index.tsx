@@ -10,15 +10,15 @@ import { Menu, Transition } from "@headlessui/react";
 import { useState, useRef, useEffect } from "react";
 export default function Page() {
     const [chevron, setChevron] = useState(false);
-    const menuButtonRef = useRef(null);
+    const menuButtonRef = useRef<HTMLButtonElement | null>(null);
     const toggleDropdown = () => {
         setChevron(!chevron);
     };
-    const handleClickOutside = (event: { target: any; }) => {
-        if (menuButtonRef.current && !menuButtonRef.current.contains(event.target)) {
+    const handleClickOutside = (event: MouseEvent) => {
+        if (menuButtonRef.current && !menuButtonRef.current.contains(event.target as Node)) {
             setChevron(false);
         }
-    }
+    };
     useEffect(() => {
         document.addEventListener('click', handleClickOutside);
 
